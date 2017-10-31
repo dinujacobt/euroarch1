@@ -14,6 +14,10 @@ Class Admin extends CI_Controller {
         $this->load->library('form_validation');
         $this->load->helper('form');
         $this->load->model('admin_model');
+        if (!isset($this->session->userdata['user_id'])) {
+            redirect('login');
+            exit;
+        }
     }
 
     public function index($messages = NULL) {

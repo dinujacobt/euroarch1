@@ -22,7 +22,7 @@ $this->load->view('header');
                 }
                 ?>
             </div>
-            
+
             <ul class="nav nav-tabs">
                 <li class="active"><a data-toggle="tab" href="#active_p">Active</a></li>
                 <li><a data-toggle="tab" href="#inactive_p">Inactive</a></li>
@@ -56,7 +56,7 @@ $this->load->view('header');
                                     <td>
                                         <a href="<?= base_url() ?>admin/edit_product/<?= $row['id']; ?>">Edit</a>
                                         <a href="<?= base_url() ?>admin/status_change/<?= $row['id']; ?>/0">Inactive</a>
-                                        <a href="<?= base_url() ?>admin/delete_product/<?= $row['id']; ?>">Delete</a>
+                                        <a href="<?= base_url() ?>admin/delete_product/<?= $row['id']; ?> " onclick="return confirm('Are you sure?')">Delete</a>
                                     </td>
                                 </tr>
                                 <?php
@@ -93,7 +93,7 @@ $this->load->view('header');
                                     <td>
                                         <a href="<?= base_url() ?>admin/edit_product/<?= $row['id']; ?>">Edit</a>
                                         <a href="<?= base_url() ?>admin/status_change/<?= $row['id']; ?>/1">Active</a>
-                                        <a href="<?= base_url() ?>admin/delete_product/<?= $row['id']; ?>">Delete</a>
+                                        <a href="<?= base_url() ?>admin/delete_product/<?= $row['id']; ?> " onclick="return confirm('Are you sure?')">Delete</a>
                                     </td>
                                 </tr>
                                 <?php
@@ -108,6 +108,7 @@ $this->load->view('header');
         </div>
     </div>
 </section>
+
 <?php
 $this->load->view('footer');
 

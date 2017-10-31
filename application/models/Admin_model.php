@@ -88,6 +88,11 @@ Class Admin_model extends CI_Model {
         $this->db->where(array('id' => $id));
         return $this->db->get('products')->result_array()[0];
     }
+    
+    function all_active_products(){
+        $this->db->where(array('active' => 1, 'delete_status' => 0));
+        return $this->db->get('products')->result_array();
+    }
 
 }
 

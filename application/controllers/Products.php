@@ -8,6 +8,8 @@
 
 Class Products extends CI_Controller{
     function index(){
-        $this->load->view('product');
+        $this->load->model('admin_model');
+        $data['products'] = $this->admin_model->all_active_products();
+        $this->load->view('product',$data);
     }
 }

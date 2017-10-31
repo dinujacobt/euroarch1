@@ -3,10 +3,12 @@
     <head>
         <title>Euroarch</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="<?= theme ?>images/eurof.png" />
         <link href="<?= theme ?>fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?= theme ?>css/bootstrap.css" rel='stylesheet' type='text/css'/>
         <link href="<?= theme ?>css/euro.css" rel='stylesheet' type='text/css'/>
-
+        <link href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel='stylesheet' type='text/css'/>
+       
     </head>
     <body>
         <div class="strip">
@@ -45,7 +47,7 @@
                 <div class="logo">EUROARCH</div>
                 <ul class="navi">
                     <li><a href="<?= base_url() ?>">HOME</a></li>
-                    <li><a href="<?= base_url() ?>about">ABOUT</a></li>
+                    <!--<li><a href="<?= base_url() ?>about">ABOUT</a></li>-->
                     <li><a href="<?= base_url() ?>products">PRODUCTS</a></li>
                     <li><a href="<?= base_url() ?>contact">CONTACT</a></li>
                 </ul>

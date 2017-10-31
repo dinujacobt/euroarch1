@@ -23,3 +23,7 @@ $(function () {
     });
 
 });
+$(document).ready(function () {
+    $('#active_p_table').DataTable();
+    $('#inactive_p_table').DataTable();
+});
