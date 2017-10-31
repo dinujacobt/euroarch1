@@ -15,7 +15,7 @@
         <div class="pro">
             <div class="col-md-3">
                 <img src="<?= theme ?>images/progress.png" class="img-responsive">
-                <h3>PROGRESS PROFILES</h3>
+                <h4>PROGRESS PROFILES</h4>
                 <p>The wide range of products is the result of over 28 years of research and development applied to the most advanced technologies.</p>
                 <div class="button">
                     Details<i class="ion-android-send" style="font-size:20px;margin-left:10px;"></i>
@@ -23,7 +23,7 @@
             </div>
             <div class="col-md-3">
                 <img src="<?= theme ?>images/moeding.jpg" class="img-responsive">
-                <h3>MOEDING</h3>
+                <h4>MOEDING</h4>
                 <p>Innovative leader in the insulated,rainscreen facade segment.Goal is to undertake projects and provide references.</p>
                 <a href="http://www.moeding.de/en/"><div class="button">
                         Details<i class="ion-android-send" style="font-size:20px;margin-left:10px;"></i>
@@ -32,7 +32,7 @@
             </div>
             <div class="col-md-3">
                 <img src="<?= theme ?>images/divider.png" class="img-responsive" >
-                <h3>DIVIDERS</h3>
+                <h4>DIVIDERS</h4>
                 <p>Dividers folding partition provides a full turnkey solutions including design.</p>
                 <div class="button">
                     Details<i class="ion-android-send" style="font-size:20px;margin-left:10px;"></i>
@@ -40,8 +40,7 @@
             </div>
             <div class="col-md-3">
                 <img src="<?= theme ?>images/afs.png" class="img-responsive">
-                <h3>AFS</h3>
-                <br>
+                <h4>AFS</h4>
                 <p>Architectural facade solutions,Based <br>in Netherlands specialized in manufacturing high end metal panel systems.</p>
                 <div class="button">
                     Details<i class="ion-android-send" style="font-size:20px;margin-left:10px;"></i>
@@ -51,10 +50,11 @@
 </div>
 <div class="fstrip">
     <div class="container">
-        <a href="/product.html">
+        <a href="<?= base_url() ?>products">
             <div class="button1">
                 Check stock availability here
-            </div></a>
+            </div>
+        </a>
 
     </div>
 </div>

@@ -23,6 +23,7 @@ section{
 .strip {
     width: 100%;
     height: 40px;
+    padding-top: 4px;
     background-color: #2C3E50;
     border-bottom: 1px solid #e9e9e9;
     color: #fff;
@@ -105,8 +106,8 @@ section{
 .matter {
     background: url('../images/services-bg.jpg');
     width: 100%;
-    height: 800px;
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .pro .col-md-3 {
@@ -455,4 +456,26 @@ section{
 }
 .message-div .error{
     color: red;
+}
+
+.strip .fa{
+    font-size: 20px;
+    color: #cdcdcd;
+    padding-right: 7px;
+}
+.strip a,.strip a:hover{
+    text-decoration: none;
+    color: #cdcdcd;
+}
+.strip a:first-child{
+    margin-right: 8px;
+}
+.matter .col-md-3 img{
+    margin: auto;
+    min-height: 80px;
+    max-height: 80px;
+}
+.matter .col-md-3 p{
+    height: 80px;
+    min-height: 80px;
 }
